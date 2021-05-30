@@ -53,4 +53,21 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="col-lg-4 col-6">
+		<div class="card" style="width: 18rem;">
+			<?php
+			echo $this->Html->image('record.svg', [
+				'alt' => 'notes',
+				'class'=>'card-img-top',
+				'style'=>'width:80%;margin:20px;',
+				'url' => array('controller' => 'p', 'action' => 'contentsMaker')
+			]);
+			?>
+			<div class="card-body">
+				<h5 class="card-title">录制课程</h5>
+				<p class="card-text">自己动手DIY课程，可以保存在本地，也可以分享给其他人。</p>
+			</div>
+		</div>
+	</div>
 </div>

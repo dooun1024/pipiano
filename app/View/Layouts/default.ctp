@@ -31,7 +31,7 @@
 			'class'=>'navbar-brand',
 			'url' => array('controller' => 'p', 'action' => 'index')
 		]);
-		?>PianoProj v1.01 dooun
+		?>PiPiano v1.01 dooun
 	</nav>
 </div>
 <div class="container" style="margin-top:20px;">
@@ -39,7 +39,9 @@
 	<?php echo $this->fetch('content'); ?>
 	<div id="debug-info">
 	</div>
-	<div id="footer"></div>
+	<div id="footer">
+		<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+	</div>
 </div>
 </body>
 </html>

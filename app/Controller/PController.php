@@ -45,4 +45,8 @@ class PController extends AppController {
 
 	}
 
+	public function contentsMaker() {
+
+	}
+
 }
